@@ -3,11 +3,6 @@ Schema for storing raw ISD-lite hourly weather data.
 More can be read about these weather sets here: http://www.ncdc.noaa.gov/oa/climate/isd/
 */
 
-DROP KEYSPACE IF EXISTS isd_weather_data;
-CREATE KEYSPACE isd_weather_data WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
-
-use isd_weather_data;
-
 /*
 Weather stations that correspond with collected raw weather data.
 */
