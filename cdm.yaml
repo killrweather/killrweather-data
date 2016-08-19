@@ -3,4 +3,4 @@ version: 2.0
 tables:
     - raw_weather_data
     - sky_condition_lookup
-    - weather_stations
+    - weather_station
